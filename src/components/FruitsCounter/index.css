@@ -1,0 +1,58 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.bg-container {
+  background-color: #ffd569;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  height: 20vh;
+}
+.card-container {
+  background-color: #ffffff;
+  height: 60vh;
+  width: 60vw;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+.counters-card {
+  display: flex;
+  flex-direction: row;
+}
+.img-btn-card {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.button-container {
+  margin-top: 48px;
+}
+.button {
+  color: #ffffff;
+  background-color: #007bff;
+  border: 1px;
+  border-radius: 4px;
+  font-family: roboto;
+  font-size: 12px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-right: 16px;
+  outline: none;
+  cursor: pointer;
+}
+.span {
+  color: #ffd569;
+}
+.heading {
+  color: black;
+  font-family: roboto;
+  font-size: 30px;
+  padding-top: 40px;
+}
